@@ -1,20 +1,27 @@
  
 
 .footer {
+    height: 582px;
     background: #6278F7;
     color: #FFF;
-    padding: 80px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+    
 }
 
 .footer ul li {
-    display: inline-block;
-    margin-right: 32px;
+    width: 40px;
 }
 
 .footer ul li:last-child {
     margin-right: 0;
 }
 
+.footer img {
+    max-width: 100%;
+    padding-bottom: 20px;
+    
+}
